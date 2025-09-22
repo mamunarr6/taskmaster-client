@@ -28,7 +28,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
           />
         </div>
         <div className="flex flex-col gap-3">
-          <label htmlFor="description">Description</label>
+          <label htmlFor="description"> Description </label>
           <textarea
             className="w-full rounded-md"
             type="text"
@@ -51,6 +51,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
             className="w-full rounded-md"
             type="text"
             id="asignTo"
+            defaultValue={"Rahim"}
             {...register("asignTo")}
           >
             <option value="Rahim">Rahim</option>
@@ -63,6 +64,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
             className="w-full rounded-md"
             type="text"
             id="priority"
+            defaultValue={"High"}
             {...register("priority")}
           >
             <option value="High">High</option>
