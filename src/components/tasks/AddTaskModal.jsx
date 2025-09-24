@@ -56,6 +56,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
           >
             <option value="Rahim">Rahim</option>
             <option value="Karim">Karim</option>
+            <option value="Mamun Ar Roshid">Mamun Ar Roshid</option>
           </select>
         </div>
         <div className="flex flex-col gap-3">
@@ -67,9 +68,9 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
             defaultValue={"High"}
             {...register("priority")}
           >
-            <option value="High">High</option>
-            <option value="Medium">Medium</option>
-            <option value="Low">Low</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
           </select>
         </div>
 
